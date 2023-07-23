@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Notebook</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Online Notebook</h1>
+        <form id="new-note-form">
+            <input 
+                type="text"
+                id="new-note-input"
+                placeholder="What do You have to note?" />
+            <input
+                type="submit"
+                id="new-note-submit"
+                value="Add note"/>    
+        </form>
+    </header>
+
+    <main>
+
+        <section class="note-list">
+            <h2>Notes</h2>
+
+            <div id="notes">
+
+                <!-- <div class="note">
+                    <div class="content">
+                        <input 
+                        type="text"
+                        class="text"
+                        value="My shiny note"
+                        readonly
+                        />
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div> -->
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html> 
